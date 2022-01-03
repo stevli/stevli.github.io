@@ -22,4 +22,4 @@ We can change the display size of the block elements by setting the `width` and 
 
 ## Inner and Outer display Types
 
-HTML uses a language structure that can be nested. In other words, some elements, such as ·<div>·, ·<p>·, can be used as containers for other elements.
+HTML uses a language structure that can be nested. In other words, some elements such as `<div>`, `<p>` can be used as containers for other elements.
