@@ -20,3 +20,5 @@ We can manually modify the display attribute of any element.
 
 We can change the display size of the block elements by setting the `width` and `height` attributes. But this is not possible for inline elements, their display size is automatically calculated by the browser. The use of the combination, `display: inline-block`, can continue to display the elements as inline elements and set their size at the same time.
 
+## Table
+
