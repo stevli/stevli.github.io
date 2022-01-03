@@ -25,3 +25,22 @@ We can change the display size of the block elements by setting the `width` and 
 HTML uses a language structure that can be nested. In other words, some elements such as `<div>`, `<p>` can be used as containers for other elements.
 
 The default display layout within these container elements is also **normal flow**. We can manually set the inner display layout of these container elements. These layout types are inherited from the `block` type. That is to say, as the element itself, these container elements are displayed as block elements.
+
+## Table Layout
+
+The earliest container display layout is `table`. The element itself is displayed as a block element, and the elements inside it are displayed as a table composed of rows and columns.
+
+- `display: table` As a container element, internal elements of this element will be displayed in table format.
+- `display: table-caption` This element is displayed as the table header.
+- `display: table-row` This element is displayed as a table row.
+- `display: table-column` This element is displayed as a table column.
+- `display: table-cell` This element is displayed as a table cell.
+
+There are two things to note here. First of all, the table layout is considered an outdated layout, and its functions can be replaced by the grid layout described below; secondly, HTML defines a set of elements, which are set by default for these display types, so we can directly use them to compose a table layout. For example:
+
+- `table { display: table }`
+- `caption { display: table-caption }`
+- `tr { display: table-row }`
+- `th { display: table-cell; font-weight: bold; }` Usually used as a column cell, displayed in bold font
+- `td { display: table-cell }` Usually used as a data cell
+
