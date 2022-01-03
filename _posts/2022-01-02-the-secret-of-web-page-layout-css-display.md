@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "The Secret of Web Page Layout: css::display"
+title: "The Secret of Web Page Layout: display Attribute of CSS"
 ---
 
-The Secret of Web Page Layout: css::display
+The Secret of Web Page Layout: display Attribute of CSS
 ===
 
 The browser displays a web page very much like a page in a book. The content is divided into paragraphs, and the words in each paragraph is arranged from left to right. When one line is full, it will automatically switch to the next line. In web page design, this default web page layout is called **normal flow**.
