@@ -44,3 +44,5 @@ There are two things to note here. First of all, the table layout is considered 
 - `th { display: table-cell; font-weight: bold; }` Usually used as a column cell, displayed in bold font
 - `td { display: table-cell }` Usually used as a data cell
 
+## Grid Layout
+
