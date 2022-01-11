@@ -59,9 +59,7 @@ The more flexible container display layout is `grid`, which has basically replac
 
 The css code above defines a grid class, where the `grid-template-columns` and `grid-template-rows` define three columns and two rows, respectively. The size of each column or row can be fractional (`2fr`), size (`100px`) or automatic (`auto`), and `repeat` can be used to define several rows or columns of the same size.
 
-All elements inside this container will be arranged from left to right in the first row, and the second row will be arranged after the first row is full.
-
-But we can also specify an element to be placed at a specified position, for example:
+All elements inside this container will be arranged from left to right in the first row, and the second row will be arranged after the first row is full. But we can also specify an element to be placed at a specified position, for example:
 
 ```
 .cell_1 {
