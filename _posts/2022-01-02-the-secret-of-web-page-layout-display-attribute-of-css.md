@@ -46,3 +46,34 @@ There are two things to note here. First of all, the table layout is considered 
 
 ## Grid Layout
 
+The more flexible container display layout is `grid`, which has basically replaced `table` now. A grid element is also made up of rows and columns. When we define the internal layout of a container as `grid`, we can also define the number and size of rows and columns, for example:
+
+```
+.container {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: 100px auto;
+    grid-gap: 10px;
+}
+```
+
+The css code above defines a grid class, where the `grid-template-columns` and `grid-template-rows` define three columns and two rows, respectively. The size of each column or row can be fractional (`2fr`), size (`100px`) or automatic (`auto`), and `repeat` can be used to define several rows or columns of the same size.
+
+All elements inside this container will be arranged from left to right in the first row, and the second row will be arranged after the first row is full.
+
+But we can also specify an element to be placed at a specified position, for example:
+
+```
+.cell_1 {
+    grid-row: 1;
+    grid-column: 2;
+}
+.cell_2 {
+    grid-row: 2;
+    grid-column: 2 / 3;
+}
+```
+
+In this way, the element of class `cell_1` will be placed in the first row and second column, and element of class `cell_2` will occupy both the second and third columns of the second row.
+
+## Flex Layout
