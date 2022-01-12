@@ -10,4 +10,10 @@ Through the `display` property introduced in the previous article, we can alread
 
 ## Floating
 
+Floating means placing a specific element at the left or right of the container, while all other elements continue to be arranged in the remaining space according to the container's layout settings. We can use the `float` property to set whether an element is floating.
+
+- `float: left;` Float the element to the left.
+- `float: right;` Float the element to the Right.
+- `float: none;` (Default value) The element does not float.
+
 ## Positioning
