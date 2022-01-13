@@ -76,9 +76,9 @@ In this way, the element of class `cell-1` will be placed in the first row and s
 
 ## Flex Layout
 
-The latest layout is `flex` which can be understood as a grid layout without setting an explicit number of rows and columns. By default, all elements in the flex container are arranged sequentially from left to right. If we enable the wrap property (default is nowrap), the elements are automatically arranged in the second row after the first row is filled.
+The latest layout is `flex` which can be understood as a grid layout without setting an explicit number of rows and columns. By default, all elements in the flex container are arranged sequentially from left to right. If we enable the wrap attribute (default is nowrap), the elements are automatically arranged in the second row after the first row is filled.
 
-We set a container to use flex layout by setting `display: flex` and adjust the arrangement of elements inside the container by setting the properties like `flex-direction` and `flex-wrap`. For example:
+We set a container to use flex layout by setting `display: flex` and adjust the arrangement of elements inside the container by setting the attributes like `flex-direction` and `flex-wrap`. For example:
 
 ```
 .flex-container {
@@ -110,7 +110,7 @@ The above css code can set a block element as a flex container, and set the dire
 - `align-items: start;` All elements in the vertical direction are arranged according to the arrangement of the container.
 - `align-items: end;` All elements in the vertical direction are arranged in the opposite direction of the container arrangement.
 
-For each element inside the flex container, we can resize it by setting the `flex` property. For example:
+For each element inside the flex container, we can resize it by setting the `flex` attribute. For example:
 
 ```
 .flex-element {
